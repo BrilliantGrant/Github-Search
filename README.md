@@ -25,6 +25,7 @@ The technologies used to design this application of quotes are
 * Angular 4
 * Typescript
 * Angular CLI
+* API
 
 ### License
 
