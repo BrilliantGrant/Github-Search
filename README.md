@@ -23,6 +23,8 @@ This ia a website where users may enter a GitHub username into a form, submit it
 The technologies used to design this application of quotes are 
 * Bootsrap
 * Angular 4
+* Typescript
+* Angular CLI
 
    
    
