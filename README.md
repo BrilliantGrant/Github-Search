@@ -21,7 +21,8 @@ This ia a website where users may enter a GitHub username into a form, submit it
 
 ## Technologies Used
 The technologies used to design this application of quotes are 
-
+* Bootsrap
+* Angular 4
 
    
    
