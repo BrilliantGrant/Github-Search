@@ -26,6 +26,9 @@ The technologies used to design this application of quotes are
 * Typescript
 * Angular CLI
 * API
+* Node.js
+* HTML
+* CSS
 
 ### License
 This project is licenced under the MIT License.
