@@ -20,6 +20,8 @@ This ia a website where users may enter a GitHub username into a form, submit it
  * Have an internet connection
 
 ## Technologies Used
+The technologies used to design this application of quotes are 
+
 
    
    
