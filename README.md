@@ -18,5 +18,8 @@ This ia a website where users may enter a GitHub username into a form, submit it
  * Install Node  allows to run Javascript code on the terminal.
  * Atleast have a computer or a laptop
  * Have an internet connection
+
+## Technologies Used
+
    
    
