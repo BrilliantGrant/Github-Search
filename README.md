@@ -28,6 +28,8 @@ The technologies used to design this application of quotes are
 * API
 
 ### License
+This project is licenced under the MIT License.
+
 
    
    
