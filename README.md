@@ -41,6 +41,8 @@ The technologies used to design this website of github-user-search are
 * Node.js
 * HTML
 
+##Known Bugs
+There are no known bugs.
 
 ### License
 This project is licenced under the MIT License.
