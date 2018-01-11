@@ -45,6 +45,14 @@ The technologies used to design this website of github-user-search are
 ## Known Bugs
 There are no known bugs.
 
+## Github API limits and setup:
+
+This app uses the GitHub API to retrieve the data. This API allows 5,000 requests per hour with an API key, but only 60 requests per hour without one. Everyone is therefore required to use their own unique key. GitHub refers to these keys as "Personal Access Tokens".
+
+Creating Personal Access Tokens
+
+Visit the Settings area of your GitHub account, select Personal Access Tokens from the sidebar, and hit Generate New Token. GitHub will offer a list of options. Do not select any. These grant read/write permissions and access to personal data. Finally, select Generate Token.
+
 ### License
 This project is licenced under the MIT License.
 
