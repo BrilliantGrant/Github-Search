@@ -27,6 +27,7 @@ This ia a website where users may enter a GitHub username into a form, submit it
   * $ npm install
   * $ bower install
 
+Visit https://cruzlof.github.io/Github-Search/
 
 Create a new file and place your API Key there:
 exports.apiKey = "YOUR-API-KEY",
