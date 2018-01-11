@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This ia a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.
 
-## Installation Requirements
+## Setup/Installation Requirements
  * Install Angular CLI that will helps to create and develop our
 	Angular apps.(npm install -g @angular/cli)
  * Install angular-cli-ghpages that helps to deploy your application. 
@@ -19,16 +19,28 @@ This ia a website where users may enter a GitHub username into a form, submit it
  * Atleast have a computer or a laptop
  * Have an internet connection
 
+ To run app locally: In terminal, navigate to your desktop and execute:
+
+ To run app locally: In terminal, navigate to your desktop and execute:
+
+  * $ git clone https://github.com/cruzlof/Quotes.git
+  * $ npm install
+  * $ bower install
+
+
+Create a new file and place your API Key there:
+exports.apiKey = "YOUR-API-KEY",
+
 ## Technologies Used
 The technologies used to design this website of github-user-search are 
-* Bootsrap
+* CSS Bootsrap
 * Angular 4
 * Typescript
 * Angular CLI
 * API
 * Node.js
 * HTML
-* CSS
+
 
 ### License
 This project is licenced under the MIT License.
