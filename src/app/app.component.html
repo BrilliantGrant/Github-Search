@@ -1,14 +1,14 @@
 
 <div class="container">
-  <div class="row" id="Headernav" style="background-color:#03142B;text-align:center;  font-style:italic; width: 100%;height:100px;margin-left: -80px;position: fixed;">
+  <div class="row" id="Headernav" style="background-color:#03142B;text-align:center;  font-style:italic; width: 100%;height:100px;margin-left: -72px;position: fixed;">
     <h1 style="color: white;">Github User Search</h1><br><br   >
      <input [(ngModel)]="userName" placeholder=" Search GitHub" style="height:39px; width:304px; border-radius:5px;">
      <button (click)="userSearch()" class="btn btn-primary btn-lg">SEARCH</button>
   </div>
    
-   <div class="container">
+   <div class="well" id="display">
   <div class="col-sm-6">
-    <img [src]="avatarUrl" style="width:215px; border-radius:50%; border-color:blue; margin-top: 230px; margin-left: 300px">
+    <img [src]="avatarUrl" style="width:215px; border-radius:50%; border-color:blue; margin-top: 230px; margin-left: 300px; float: left;">
   </div>
     <div style="float:right; margin-left: 200px; margin-top: 100px; color: ">
       <h3>{{githubData.name}}</h3>
@@ -26,6 +26,9 @@
   </div>
   <div class="container" style="background-color: #03142B; color: white">
       <h4>Following: {{githubData.following}}</h4>
+  </div>
+  <div class="container" style="background-color: ; color: ">
+      <h4>Stars: {{githubData.Stars}}</h4>
   </div>
       <h4><a [href]="githubData.html_url">link to  Github Page</a></h4>
     </div>
