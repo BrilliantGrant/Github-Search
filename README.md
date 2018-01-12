@@ -45,7 +45,7 @@ The technologies used to design this website of github-user-search are
 ## Known Bugs
 There are no known bugs.
 
-## Github API limits and setup:
+### Github API limits and setup:
 
 This app uses the GitHub API to retrieve the data. This API allows 5,000 requests per hour with an API key, but only 60 requests per hour without one. Everyone is therefore required to use their own unique key. GitHub refers to these keys as "Personal Access Tokens".
 
