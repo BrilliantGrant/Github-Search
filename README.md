@@ -36,10 +36,10 @@ $ ln -s /full/path/to/project/directory ./node_modules/app
 
 4.Generate a Github Personal Access token:
 
-Visit the settings area of your Github account and select 'Personal access tokens' on the sidebar.
-Click 'Generate New Token'.
-GitHub will offer a list of options. Do not select any. These grant read/write permissions and access to personal 
-data.
+  *Visit the settings area of your Github account and select 'Personal access tokens' on the sidebar.
+  *Click 'Generate New Token'.
+  *GitHub will offer a list of options. Do not select any. These grant read/write permissions and access to personal 
+   data.
 
 5.Finally, select 'Generate Token'.
 
