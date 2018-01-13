@@ -6,35 +6,38 @@
      <button (click)="userSearch()" class="btn btn-primary btn-lg">SEARCH</button>
   </div>
    
-   <div class="well" id="display">
+   <div class="" id="display">
   <div class="col-sm-6">
-    <img [src]="avatarUrl" style="width:215px; border-radius:50%; border-color:blue; margin-top: 230px; margin-left: 300px; float: left;">
+    <img [src]="avatarUrl" style="width:215px; border-radius:50%; border-color:blue; margin-top: 80px; margin-left: 300px; float: left;">
   </div>
-    <div style="float:right; margin-left: 200px; margin-top: 100px; color: ">
+  <div class="row" id="instructions">
+    <div style="float:left; margin-left: 200px; margin-top: 100px; color: ">
       <h3>{{githubData.name}}</h3>
-      <div class="container" style="background-color: #03142B; color: white">
+      <div class="container" style="background-color: #03142B; color: white;border-top-left-radius: 25px;border-bottom-right-radius: 25px; width: 500px">
       <h4>Name: {{githubData.Name}}</h4>
   </div>
-   <div class="container" style="background-color: ">
+   <div class="container" style="background-color: ;width: 500px">
       <h4>Location: {{githubData.Location}}</h4>
   </div>
-      <div class="container" style="background-color:#03142B; color: white ">
+      <div class="container" style="background-color:#03142B; color: white; border-top-left-radius: 25px;border-bottom-right-radius: 25px;width: 500px ">
       <h4>Repositories: {{githubData.public_repos}}</h4>
   </div>
-  <div class="container" style="background-color: ; color: ;">
+  <div class="container" style="background-color: ; color: ;width: 500px">
       <h4>Followers: {{githubData.followers}}</h4>
   </div>
-  <div class="container" style="background-color: #03142B; color: white">
+  <div class="container" style="background-color: #03142B; color: white;border-top-left-radius: 25px;border-bottom-right-radius: 25px;width: 500px">
       <h4>Following: {{githubData.following}}</h4>
   </div>
-  <div class="container" style="background-color: ; color: ">
+  <div class="container" style="background-color: ; color: ;width: 500px">
       <h4>Stars: {{githubData.Stars}}</h4>
   </div>
-      <h4><a [href]="githubData.html_url">link to  Github Page</a></h4>
+      <button><h4><a [href]="githubData.html_url">link to  Github Page</a></h4></button>
     </div>
   </div>
 </div>
+</div>
 
+       
 
 
 
