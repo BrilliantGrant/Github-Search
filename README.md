@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-This ia a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.
+This ia a web application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.
 
 ## Setup/Installation Requirements
  * Install Angular CLI that will helps to create and develop our
@@ -19,7 +19,7 @@ This ia a website where users may enter a GitHub username into a form, submit it
  * Atleast have a computer or a laptop
  * Have an internet connection
 
- To run app locally: In terminal, navigate to your desktop and execute:
+1.To run app locally: In terminal, navigate to your desktop and execute:
 
  To run app locally: In terminal, navigate to your desktop and execute:
 
@@ -29,8 +29,26 @@ This ia a website where users may enter a GitHub username into a form, submit it
 
 Visit https://cruzlof.github.io/Github-Search/
 
-Create a new file and place your API Key there:
-exports.apiKey = "YOUR-API-KEY",
+2.Create an empty .env file at the root of the project directory.
+
+3.Create a symbolic link in the node_modules folder that points to the root of the project directory:
+$ ln -s /full/path/to/project/directory ./node_modules/app
+
+4.Generate a Github Personal Access token:
+
+Visit the settings area of your Github account and select 'Personal access tokens' on the sidebar.
+Click 'Generate New Token'.
+GitHub will offer a list of options. Do not select any. These grant read/write permissions and access to personal 
+data.
+
+5.Finally, select 'Generate Token'.
+
+Type the following in your .env file but replace "YOUR_ACCESS_TOKEN_HERE" with your personal access token:
+exports.apiKey="YOUR_ACCESS_TOKEN_HERE"
+
+6.Finally, run:
+
+$ gulp
 
 ## Technologies Used
 The technologies used to design this website of github-user-search are 
