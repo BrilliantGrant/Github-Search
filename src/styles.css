@@ -3,7 +3,7 @@
 #instructions {
   margin: 10px;
   padding: 10px;
-  background-color: #EEEEEE;
+  background-color: #CFD8DC;
   border-radius: 15px;
   box-shadow: 3px 3px 11px #000000;
   margin-top: 180px;
@@ -32,4 +32,7 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+body{
+	background-color: #EEEEEE;
 }
