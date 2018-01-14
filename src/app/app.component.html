@@ -13,27 +13,32 @@
   
   <div class="row" id="instructions" style=" ">
 
-    <div style="float:right; margin-left: 200px; ; color: ">
-      <h3>{{githubData.name}}</h3>
+    <div style="float:right; margin-left: 200px; margin-top: -250px; height: 400px ">
       <div class="container" style="background-color: #03142B; color: white;border-top-left-radius: 25px;border-bottom-right-radius: 25px; width: 500px">
-      <h4>Name: {{githubData.Name}}</h4>
+      <h4>Name: {{githubData.name}}</h4>
   </div>
+
    <div class="container" style="background-color: ;width: 500px">
       <h4>Location: {{githubData.Location}}</h4>
   </div>
+
       <div class="container" style="background-color:#03142B; color: white; border-top-left-radius: 25px;border-bottom-right-radius: 25px;width: 500px ">
       <h4>Repositories: {{githubData.public_repos}}</h4>
   </div>
+
   <div class="container" style="background-color: ; color: ;width: 500px">
       <h4>Followers: {{githubData.followers}}</h4>
   </div>
+
   <div class="container" style="background-color: #03142B; color: white;border-top-left-radius: 25px;border-bottom-right-radius: 25px;width: 500px">
       <h4>Following: {{githubData.following}}</h4>
   </div>
+
   <div class="container" style="background-color: ; color: ;width: 500px">
       <h4>Stars: {{githubData.Stars}}</h4>
   </div>
-      <button><h4><a [href]="githubData.html_url">link to  Github Page</a></h4></button>
+
+      <button class="button" style="vertical-align:middle"><span><a [href]="githubData.html_url">View Github Page</a></span></button>
     </div>
   </div>
 </div>
