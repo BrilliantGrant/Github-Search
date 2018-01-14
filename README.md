@@ -32,13 +32,14 @@ Visit https://cruzlof.github.io/Github-Search/
 2.Create an empty .env file at the root of the project directory.
 
 3.Create a symbolic link in the node_modules folder that points to the root of the project directory:
+
 $ ln -s /full/path/to/project/directory ./node_modules/app
 
 4.Generate a Github Personal Access token:
 
-  *Visit the settings area of your Github account and select 'Personal access tokens' on the sidebar.
-  *Click 'Generate New Token'.
-  *GitHub will offer a list of options. Do not select any. These grant read/write permissions and access to personal 
+  * Visit the settings area of your Github account and select 'Personal access tokens' on the sidebar.
+  * Click 'Generate New Token'.
+  * GitHub will offer a list of options. Do not select any. These grant read/write permissions and access to personal 
    data.
 
 5.Finally, select 'Generate Token'.
